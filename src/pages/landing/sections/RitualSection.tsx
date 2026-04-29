@@ -42,7 +42,7 @@ export default function RitualSection() {
             <div className="mt-8">
               <div className="flex flex-col gap-3 sm:flex-row">
                 <GlowButton
-                  href={whatsappLink("Olá! Quero começar agora a mentoria New Empire Legacy.")}
+                  href={whatsappLink()}
                   target="_blank"
                   rel="noreferrer noopener"
                   className="w-full"
@@ -50,7 +50,7 @@ export default function RitualSection() {
                   Falar no WhatsApp agora
                 </GlowButton>
                 <a
-                  href={whatsappLink("Olá! Quero começar agora a mentoria New Empire Legacy.")}
+                  href={whatsappLink()}
                   target="_blank"
                   rel="noreferrer noopener"
                   className="inline-flex w-full items-center justify-center rounded-full border border-emerald-800/30 bg-ink-900 px-6 py-3 text-xs font-semibold uppercase tracking-wider text-ivory/90 shadow-[0_0_0_1px_rgba(0,77,0,0.18)] transition hover:bg-ink-850 focus:outline-none focus-visible:ring-2 focus-visible:ring-emerald-800"

@@ -45,7 +45,7 @@ export default function Hero() {
 
             <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
               <a
-                href={whatsappLink("Olá! Quero começar agora a mentoria New Empire Legacy.")}
+                href={whatsappLink()}
                 target="_blank"
                 rel="noreferrer noopener"
                 className="group relative inline-flex items-center justify-center overflow-hidden rounded-full bg-gradient-to-b from-emerald-800 to-[#004d00] px-6 py-3 text-sm font-semibold uppercase tracking-wider text-white shadow-[0_0_0_1px_rgba(0,77,0,0.35),_0_0_40px_rgba(0,77,0,0.25)] transition hover:brightness-110 focus:outline-none focus-visible:ring-2 focus-visible:ring-emerald-800"

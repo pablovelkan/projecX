@@ -55,14 +55,7 @@ export default function LeadForm() {
       const raw = localStorage.getItem(storageKey) ?? localStorage.getItem(legacyStorageKey);
       const prev = raw ? (JSON.parse(raw) as unknown[]) : [];
       localStorage.setItem(storageKey, JSON.stringify([payload, ...prev].slice(0, 50)));
-      const messageLines = [
-        "Olá! Quero começar agora a mentoria New Empire Legacy.",
-        `Nome: ${data.nome.trim()}`,
-        `WhatsApp: ${data.whatsapp.trim()}`,
-        `E-mail: ${data.email.trim()}`,
-      ];
-      if (data.objetivo.trim()) messageLines.push(`Objetivo: ${data.objetivo.trim()}`);
-      window.open(whatsappLink(messageLines.join("\n")), "_blank", "noopener,noreferrer");
+      window.open(whatsappLink(), "_blank", "noopener,noreferrer");
       setStatus("success");
     }, 750);
   }

@@ -1,7 +1,5 @@
-export const WHATSAPP_PHONE = "5531973177316";
+export const WHATSAPP_GROUP_LINK = "https://chat.whatsapp.com/KNaNMRgJIsn6bB1q67oqft";
 
-export function whatsappLink(message?: string) {
-  const base = `https://wa.me/${WHATSAPP_PHONE}`;
-  if (!message) return base;
-  return `${base}?text=${encodeURIComponent(message)}`;
+export function whatsappLink() {
+  return WHATSAPP_GROUP_LINK;
 }
