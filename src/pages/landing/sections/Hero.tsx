@@ -26,8 +26,8 @@ export default function Hero() {
 
             <h1 className="mt-8 font-display text-3xl font-semibold leading-tight tracking-tight text-ivory drop-shadow-[0_2px_26px_rgba(0,0,0,0.78)] sm:text-5xl">
               Enquanto você dorme, seu{" "}
-              <span className="font-wedding align-baseline text-[1.05em] font-normal tracking-[0.02em] text-emerald-800 drop-shadow-[0_10px_28px_rgba(0,0,0,0.55)]">
-                IMPERIO DIGITAL
+              <span className="font-wedding normal-case align-baseline text-[1.12em] font-normal tracking-normal text-emerald-800 drop-shadow-[0_10px_28px_rgba(0,0,0,0.55)]">
+                império digital
               </span>{" "}
               trabalha por você.
             </h1>
