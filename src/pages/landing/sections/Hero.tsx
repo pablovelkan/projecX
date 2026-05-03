@@ -3,6 +3,8 @@ import VineDivider from "@/components/VineDivider";
 import { whatsappLink } from "@/utils/whatsapp";
 
 export default function Hero() {
+  const logoSrc = `${import.meta.env.BASE_URL}images/logotipook.png`;
+
   return (
     <section className="relative overflow-hidden">
       <div className="absolute inset-0">
@@ -16,7 +18,7 @@ export default function Hero() {
         <FadeIn>
           <div className="mx-auto max-w-4xl text-center">
             <img
-              src="/images/logotipook.png"
+              src={logoSrc}
               alt="New Empire Legacy"
               className="mx-auto h-40 w-40 select-none object-contain drop-shadow-[0_18px_55px_rgba(0,0,0,0.9)] drop-shadow-[0_0_44px_rgba(0,100,0,0.35)] sm:h-48 sm:w-48"
               draggable={false}
